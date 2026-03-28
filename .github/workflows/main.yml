@@ -9,9 +9,7 @@ on:
 jobs:
   tests:
     # Разворачиваем окружение:
-    run: |
-        cd backend/
-        flake8 
+    runs-on: ubuntu-latest 
 
     steps:
     # Копируем код проекта
